@@ -1,0 +1,75 @@
+@use "./mixins";
+
+// sizes
+$small-font: .8em;
+$medium-font: 1.4em;
+$large-font: 3em;
+
+@font-face {
+  font-family: "Old Standard TT Bold";
+  src: url("../fonts/OldStandard-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Old Standard Regular";
+  src: url("../fonts/OldStandard-Regular.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans Bold";
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans Regular";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans Light";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+
+p, span, .light {
+  @include mixins.normal-font($weight: 100);
+}
+
+// default fonts
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a, button {
+  @include mixins.normal-font($weight: 400);
+}
+
+strong {
+  @include mixins.normal-font($weight: 600);
+}
+
+h1, h2, h3, h4, h5, h6, .headline {
+  @include mixins.headline-font;
+}
+
+// font weight
+.bold {
+  font-weight: bold;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+// font size
+.small {
+  font-size: $small-font;
+}
+.medium {
+  font-size: $medium-font;
+  letter-spacing: 2px;
+}
+.large {
+  font-size: $large-font;
+  letter-spacing: 3px;
+}

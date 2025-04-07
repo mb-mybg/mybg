@@ -1,0 +1,35 @@
+{
+  "name": "mybg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "gulp sass:build",
+    "sass:watch": "gulp sass:watch",
+    "js:build": "gulp js:build",
+    "js:watch": "gulp js:watch",
+    "dev": "gulp assets:watch",
+    "build": "gulp assets:build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@morgan-morgan/core": "^1.6.3",
+    "date-fns": "^4.1.0",
+    "ejs-loader": "^0.5.0",
+    "gulp": "^5.0.0",
+    "gulp-cli": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^6.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "jquery-smooth-scroll": "^2.1.2",
+    "js-cookie": "^3.0.5",
+    "sass": "^1.82.0",
+    "slick-carousel": "^1.8.1",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "process": "^0.11.10"
+  }
+}
