@@ -4,11 +4,11 @@ langcode: en
 uuid: 0bf2b068-e811-4915-803e-4795c159a51c
 name: 'My Boguslav'
 mail: mybg@gmail.com
-slogan: ''
+slogan: 'The most beloved city in the world'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /home
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

@@ -1,0 +1,27 @@
+uuid: c6c684ca-159d-4f8c-a6ac-a52159297a7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - mybg_radix
+_core:
+  default_config_hash: DZiEglR8IdBOPizKYW5wxO7Q3t2nzjnspu7sbjFJLaY
+id: mybg_radix_main_menu
+theme: mybg_radix
+region: navbar_left
+weight: -4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

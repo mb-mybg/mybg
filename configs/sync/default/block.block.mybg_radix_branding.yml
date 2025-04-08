@@ -1,0 +1,25 @@
+uuid: e2662605-2420-4c41-b886-b498d27b20de
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mybg_radix
+_core:
+  default_config_hash: Y55uQzLPLOxMUQFC_e8fN743EZIFrCSgKOol5ukAlwk
+id: mybg_radix_branding
+theme: mybg_radix
+region: navbar_branding
+weight: -1
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

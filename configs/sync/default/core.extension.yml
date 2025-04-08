@@ -12,6 +12,7 @@ module:
   breakpoint: 0
   ckeditor5: 0
   comment: 0
+  components: 0
   config: 0
   contact: 0
   contextual: 0
@@ -26,9 +27,13 @@ module:
   help: 0
   history: 0
   image: 0
+  jquery_ui: 0
+  jquery_ui_autocomplete: 0
+  jquery_ui_menu: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
+  module_filter: 0
   mysql: 0
   node: 0
   options: 0
@@ -48,4 +53,7 @@ module:
 theme:
   olivero: 0
   claro: 0
+  radix: 0
+  gin: 0
+  mybg_radix: 0
 profile: standard

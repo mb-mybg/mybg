@@ -1,0 +1,25 @@
+uuid: e67a941b-d2f8-48f4-b7f3-ac6e9bbc7dbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - mybg_radix
+id: mybg_radix_useraccountmenu
+theme: mybg_radix
+region: navbar_right
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

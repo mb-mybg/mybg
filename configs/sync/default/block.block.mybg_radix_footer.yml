@@ -1,0 +1,27 @@
+uuid: d0cfbed5-173e-44f6-87bb-4615898ffa99
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - mybg_radix
+_core:
+  default_config_hash: Ce5XssJsRv_ZqiI0Dnzy-8defriHM5VZQQ4PcOQhg_I
+id: mybg_radix_footer
+theme: mybg_radix
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

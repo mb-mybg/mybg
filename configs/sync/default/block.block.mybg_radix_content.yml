@@ -1,0 +1,22 @@
+uuid: a4cbef4e-7d7e-44d2-ac96-e84483a6abb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mybg_radix
+_core:
+  default_config_hash: vwupO2xrz4XbWqhLU1gkms1mbMuHTpfWzR0cfHpnck0
+id: mybg_radix_content
+theme: mybg_radix
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

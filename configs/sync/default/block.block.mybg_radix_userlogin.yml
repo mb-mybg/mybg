@@ -1,0 +1,20 @@
+uuid: 99dc9f16-0e05-40e1-a487-a0f9af78f35b
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - mybg_radix
+id: mybg_radix_userlogin
+theme: mybg_radix
+region: navbar_right
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: '0'
+  provider: user
+visibility: {  }

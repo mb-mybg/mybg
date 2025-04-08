@@ -1,0 +1,22 @@
+uuid: d67432c2-acb4-4258-98e6-702ceb634199
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mybg_radix
+_core:
+  default_config_hash: hvB_RihS8e-zWsWoNX7FNDrqYVJclpyeF3XwloLSzR4
+id: mybg_radix_breadcrumbs
+theme: mybg_radix
+region: header
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: c0b4b017-5206-43ce-9cb7-d4b963cd708a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mybg_radix
+_core:
+  default_config_hash: OEIyWJX5I1OwdAQSDz8mJTB8KwJjpMuQOsD2KqPpWG0
+id: mybg_radix_page_title
+theme: mybg_radix
+region: header
+weight: -1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
